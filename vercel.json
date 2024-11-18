@@ -1,0 +1,34 @@
+{
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/login",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/register",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/dashboard",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/profile",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/admin",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/index.html"
+      }
+    ]
+  }
